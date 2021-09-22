@@ -22,7 +22,7 @@ Route::get('cursos', function () {
 });
 
 Route::get('cursos/{curso}', function ($curso) {
-    return "Bienvenido al curso de $curso";
+    return "Bienvenido, al curso de $curso";
 });
 
 Route::get('/mipag', function () {
